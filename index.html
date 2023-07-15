@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Mi primera entrega del Curso - Coder43155 JavaScript</title>  
+        <link rel="shortcut icon" href="./img/rock_favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bookmyrocking.css">      
+    </head>
+    <body>
+            <div id="micontenido"> 
+                <img style="width: 200px;height: 200px;" src="./img/rock_favicon.png" alt="" id="mainImage">
+                <h1>Estimado Rocker !, Bienvenido a mi simulador  </h1>                
+            </div>
+
+    <div class="contenido">
+    <span style="font-size:11.0pt;font-family: sans-serif;text-align: justify">
+        <h2>Selecciona Tus Boletos!</h2> 
+    </span><br />
+    <input type="checkbox" id="qosta"> Queen of Stone Age [MXN$2,500.00]</input><br />
+    <input type="checkbox" id="thehives"> The Hives       [MXN$1,000.00]</input><br />
+    <input type="checkbox" id="thefoo"> Foo Fighters      [MXN$3,000.00]</input><br />
+    <br />
+    El total de su Compra es MXN $ : <input type="text" id="totalCompra" minlength="4" maxlength="8" size="10"  value="0.00"></input>   
+    Cantidad de Boletos      : <input type="text" id="totalBoletos" minlength="4" maxlength="8" size="10"  value="0.00"></input> 
+   </div>
+   <br /> <br />
+   <div id="botones">
+    <button id="nextbtn" onclick="mostrarBoletos()"> Comprar Boletos</button>
+    <button id="nextbtn" onclick="limpiarPantalla()"> Limpiar Página</button>
+    </div>
+    <br /> <br />
+   <div>   
+    <img style="width: 300px;height: 200px;" src="./img/rock-1.jpg" alt="" id="boleto1">
+    <img style="width: 300px;height: 200px;" src="./img/rock-1.jpg" alt="" id="boleto2">
+    <img style="width: 300px;height: 200px;" src="./img/rock-1.jpg" alt="" id="boleto3">
+  </div> 
+
+<script src="./bookmyrocking.js"></script>
+</body>
+</html> 
